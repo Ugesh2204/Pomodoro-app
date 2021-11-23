@@ -1,0 +1,98 @@
+
+:root {
+    --darkblue: #1E213F;
+    --darkblueTwo: #161932;
+    --white:#ffffff;
+    --whitetext: #EFF1FA;
+    --crimsonRed: #f87070;
+    --lightBlue:#70f3f8;
+    --purple:#d881f8;
+    --lightgrey:#d7e0ff;
+}
+
+@font-face {
+    font-family: 'Kumbh Sans';
+    src: url('KumbhSans-Bold.woff2') format('woff2'),
+        url('KumbhSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: var(--darkblue);
+}
+
+
+
+
+
+P {
+    color:#EFF1FA;
+    font-size:14px;
+}
+
+.container{
+    width:410px;
+    margin:0 auto;
+    /* background-color:green; */
+}
+
+.pomodoro{
+    text-align: center;
+}
+
+.pomodoro-title {
+    font-family: 'Kumbh Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 34px;
+    color:var(--lightgrey);
+    margin-top:55px;
+}
+.nav-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    width: 373px;
+    background-color: var( --darkblueTwo);
+    border-radius: 50px;
+}
+.nav--menu{
+    display: flex;
+   justify-content: center;
+    padding-left: 1px; 
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.nav--menu li {
+    margin: 2px;
+}
+.nav--menu li a {
+    font-family: 'Kumbh Sans';
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    /* background-color: var(--crimsonRed); */
+    padding: 11px 23px;
+    border-radius: 50px;
+    font-size:14px;
+    color:var(--lightgrey);
+    opacity: 0.5;
+
+}
+.nav--menu li a:hover{
+    background-color: var(--crimsonRed);
+    color:var(--darkblue); 
+    opacity: 1;
+}
+
+.nav--menu li a.active{
+    background-color: var(--crimsonRed);
+    color:var(--darkblue);
+}
+
