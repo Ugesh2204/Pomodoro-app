@@ -24,12 +24,15 @@ body{
 }
 
 
-
-
-
 P {
     color:#EFF1FA;
     font-size:14px;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin:0 auto;
+    /* background-color:green; */
 }
 
 .container{
@@ -94,5 +97,18 @@ P {
 .nav--menu li a.active{
     background-color: var(--crimsonRed);
     color:var(--darkblue);
+}
+
+.timer-Circle{
+    width:410px;
+    height: 410px;
+    border-radius:50%;
+    /* background-color: var(--darkblueTwo); */
+    background: rgb(46,50,90);
+    background: linear-gradient(300deg, rgba(46,50,90,1) 0%, rgba(14,17,42,1) 100%);
+    margin-top:45px;
+    /* box-shadow: 13px 5px 54px 12px #121530; */
+    -webkit-box-shadow: 5px 6px 33px 5px #121530, -50px -65px 113px 6px #272c5a;
+    box-shadow: 5px 6px 33px 5px #121530, -50px -65px 113px 6px #272c5a;
 }
 
